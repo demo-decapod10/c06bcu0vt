@@ -221,6 +221,6 @@ charts:
   override:
     loki.storageConfig.aws.s3: http://$(defaultUser):$(defaultPassword)@ kr.object.ncloudstorage.com
     loki.storageConfig.aws.bucketnames: tks-loki
-    loki.structuredConfig.table_manager.retention_period: 744h    # delete logs after 744h = 31 days
+    loki.structuredConfig.table_manager.retention_period: 74h    # delete logs after 744h = 31 days
     ingester.persistence.size: 500Gi
         
